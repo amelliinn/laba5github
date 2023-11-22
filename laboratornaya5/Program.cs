@@ -29,6 +29,10 @@ namespace laboratornaya5
 
                 switch (choice)
                 {
+                    case "1":
+                        Console.Write("Введите значение для А: ");
+                        A = Convert.ToDouble(Console.ReadLine());
+                        break;
                     default:
                         Console.WriteLine("Неверный выбор. Пожалуйста, попробуйте еще раз.");
                         break;
