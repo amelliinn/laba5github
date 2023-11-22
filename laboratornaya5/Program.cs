@@ -56,6 +56,8 @@ namespace laboratornaya5
                             Console.WriteLine("========Ошибка: деление на ноль!");
                         }
                         break;
+                    case "7":
+                        return;
                     default:
                         Console.WriteLine("Неверный выбор. Пожалуйста, попробуйте еще раз.");
                         break;
