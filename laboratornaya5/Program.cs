@@ -37,6 +37,9 @@ namespace laboratornaya5
                         Console.Write("Введите значение для В: ");
                         B = Convert.ToDouble(Console.ReadLine());
                         break;
+                    case "3":
+                        Console.WriteLine("========Результат: " + (A + B));
+                        break;
                     default:
                         Console.WriteLine("Неверный выбор. Пожалуйста, попробуйте еще раз.");
                         break;
