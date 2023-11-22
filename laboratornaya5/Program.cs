@@ -29,6 +29,8 @@ namespace laboratornaya5
 
                 switch (choice)
                 {
+                    case "7":
+                        return;
                     default:
                         Console.WriteLine("Неверный выбор. Пожалуйста, попробуйте еще раз.");
                         break;
