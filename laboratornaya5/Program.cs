@@ -33,6 +33,10 @@ namespace laboratornaya5
                         Console.Write("Введите значение для А: ");
                         A = Convert.ToDouble(Console.ReadLine());
                         break;
+                    case "2":
+                        Console.Write("Введите значение для В: ");
+                        B = Convert.ToDouble(Console.ReadLine());
+                        break;
                     default:
                         Console.WriteLine("Неверный выбор. Пожалуйста, попробуйте еще раз.");
                         break;
