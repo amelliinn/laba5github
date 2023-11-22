@@ -46,6 +46,16 @@ namespace laboratornaya5
                     case "5":
                         Console.WriteLine("========Результат: " + (A * B));
                         break;
+                    case "6":
+                        if (B != 0)
+                        {
+                            Console.WriteLine("========Результат: " + (A / B));
+                        }
+                        else
+                        {
+                            Console.WriteLine("========Ошибка: деление на ноль!");
+                        }
+                        break;
                     default:
                         Console.WriteLine("Неверный выбор. Пожалуйста, попробуйте еще раз.");
                         break;
