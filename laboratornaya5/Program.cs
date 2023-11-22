@@ -29,6 +29,15 @@ namespace laboratornaya5
 
                 switch (choice)
                 {
+                    case "6":
+                        if (B != 0)
+                        {
+                            Console.WriteLine("========Результат: " + (A / B));
+                        }
+                        else
+                        {
+                            Console.WriteLine("========Ошибка: деление на ноль!");
+                        }
                     default:
                         Console.WriteLine("Неверный выбор. Пожалуйста, попробуйте еще раз.");
                         break;
