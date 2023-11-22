@@ -29,6 +29,9 @@ namespace laboratornaya5
 
                 switch (choice)
                 {
+                    case "4":
+                        Console.WriteLine("========Результат: " + (A - B));
+                        break;
                     default:
                         Console.WriteLine("Неверный выбор. Пожалуйста, попробуйте еще раз.");
                         break;
